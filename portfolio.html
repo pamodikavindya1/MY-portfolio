@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamodi Kavindya | Portfolio</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #0ea5e9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 60px 0 40px 0;
+            border-bottom: 1px solid #334155;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #f8fafc;
+            margin-bottom: 10px;
+        }
+        header .subtitle {
+            font-size: 1.2rem;
+            color: #38bdf8;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        header .bio {
+            max-width: 700px;
+            margin: 0 auto;
+            color: #94a3b8;
+            font-size: 1.05rem;
+        }
+
+        /* Section Titles */
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #334155;
+        }
+        section h2 {
+            font-size: 1.8rem;
+            color: #f8fafc;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 100px));
+            gap: 20px;
+        }
+        .skill-category {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+        .skill-category h3 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .skill-category ul {
+            list-style: none;
+        }
+        .skill-category ul li {
+            color: #cbd5e1;
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+        }
+
+        /* Projects List */
+        .project-card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            margin-bottom: 20px;
+        }
+        .project-card h3 {
+            font-size: 1.4rem;
+            color: #f8fafc;
+            margin-bottom: 5px;
+        }
+        .project-tag {
+            display: inline-block;
+            background: #0284c7;
+            color: #fff;
+            font-size: 0.8rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .project-card p {
+            color: #94a3b8;
+            margin-bottom: 15px;
+        }
+        .project-tech {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            margin-bottom: 15px;
+        }
+        .project-tech strong {
+            color: #38bdf8;
+        }
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0ea5e9;
+            color: #fff;
+        }
+
+        /* Certifications & Footer */
+        .cert-item {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+        .cert-item h3 {
+            color: #f8fafc;
+            font-size: 1.2rem;
+        }
+        .cert-item p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        .social-links {
+            margin-bottom: 15px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>H.L.P. Kavindya</h1>
+            <div class="subtitle">Frontend Developer & Undergraduate</div>
+            <p class="bio">
+                I am an Information Systems undergraduate and a passionate Frontend Developer dedicated to creating clean, modern, and highly responsive user interfaces. I specialize in turning complex ideas into intuitive, accessible, and user-friendly digital experiences, with a strong focus on Human-Computer Interaction (HCI) principles.
+            </p>
+        </header>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Web</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6)</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>UI/UX & Design</h3>
+                    <ul>
+                        <li>Responsive Layouts</li>
+                        <li>HCI Principles</li>
+                        <li>Creative Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java / C / C++</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & DBs</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>MariaDB & XAMPP</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="project-card">
+                <h3>AgriDoctor Pro</h3>
+                <span class="project-tag">Bilingual Plant Disease UI</span>
+                <p>Designed and developed a comprehensive, user-friendly, and fully responsive bilingual (Sinhala & English) frontend application aimed at helping Sri Lankan farmers identify plant diseases. Features an intuitive dashboard and clear layout mapped to accessible user standards.</p>
+                <p class="project-tech"><strong>Technologies:</strong> HTML5, CSS3, Responsive Design, UX Optimization</p>
+                <a href="https://pamodikavindya.github.io/PlantHealth-Web/" target="_blank" class="btn">View Live Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>NextGenCareer</h3>
+                <span class="project-tag">Interactive Roadmap UI</span>
+                <p>Developed a modern, sleek, and high-fidelity dark-themed user interface for an interactive career roadmap platform. The UI enables smooth navigation allowing users to easily track skill milestones and discover learning tracks.</p>
+                <p class="project-tech"><strong>Technologies:</strong> HTML5, CSS3, Tailwind CSS, Visual Hierarchy</p>
+                <a href="https://pamodikavindya.github.io/NextGenCareer/" target="_blank" class="btn">View Live Project</a>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="cert-item">
+                <h3>Python for Beginners</h3>
+                <p>Issued by Centre for Open & Distance Learning (CODL), University of Moratuwa, Sri Lanka.</p>
+                <p style="margin-top: 5px; font-size: 0.85rem; color: #38bdf8;">Verification Code: FUAWNYN4WW | <a href="https://open.uom.lk/verify" target="_blank">Verify Here</a></p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/pamodi-kavindya-9095663a6/" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/pamodikavindya" target="_blank">GitHub</a>
+            </div>
+            <p>Email: <a href="mailto:pamodikavindya0@gmail.com">pamodikavindya0@gmail.com</a></p>
+            <p style="margin-top: 15px; font-size: 0.8rem;">&copy; 2026 Pamodi Kavindya. Built with Passion.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
